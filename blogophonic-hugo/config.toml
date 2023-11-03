@@ -20,7 +20,7 @@ preserveTaxonomyNames = true
   orgName = "Government Engineering College"
   orgLocal = "Thrissur"
   favicon = "/img/favicon.ico?v=0"
-  logo = "/img/landing.svg"
+  logo = "/img/gdsclogo.svg"
   # font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
@@ -29,9 +29,9 @@ preserveTaxonomyNames = true
   # "Color Palette" section of http://tachyons.io/docs/themes/skins/
   siteBgColor = "near-white"
   sidebarBgColor = "light-gray"
-  headlineColor = "green"
-  headingColor = "near-black"
-  textColor = "dark-gray"
+  headlineColor = "blue"
+  headingColor = "light-blue"
+  textColor = "blue"
   sidebarTextColor = "mid-gray"
   bodyLinkColor = "blue"
   navLinkColor = "near-black"
