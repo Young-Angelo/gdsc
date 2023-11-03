@@ -1,0 +1,30 @@
+header:
+  - name: Home
+    title: Home Page
+    url: /
+  - name: About
+    title: About Blogophonic
+    url: /about/
+  - name: Blog
+    title: Blog
+    url: /blog/
+  - name: Contact
+    title: Contact Form
+    url: /contact/
+  - name: Elements
+    title: Element Page
+    url: /elements/
+
+footer:
+  - name: Help
+    title: Visit Help Site
+    url: https://gdsc.community.dev/government-engineering-college-thrissur/
+  - name: Privacy
+    title: Privacy Policy
+    url: https://gdsc.community.dev/government-engineering-college-thrissur/
+  - name: Terms of Use
+    title: Terms and Conditions
+    url: https://gdsc.community.dev/government-engineering-college-thrissur/
+  - name: RSS
+    title: RSS Feed
+    url: /index.xml
