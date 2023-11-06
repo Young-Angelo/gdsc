@@ -6,53 +6,144 @@ draft: false
 layout: standard
 show_title_as_headline: false
 ---
+<head>
+  <div>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Your custom CSS code here */
+    body {
+      margin: 0;
+    }
 
-<div class="tc">
-  <h1 class="f2 f1-ns">Meet The Amazing GDSC Team</h1>
-  <!-- <center>
-  <p class="f2 f1-ns measure lh-copy measure-narrow lh-solid">
-  These people serve as the executive committee of GDSC.
-  </p>
-</center>
-
-</div> -->
+    canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  </style>
+  <script src="/js/p5.js"></script>
+  <script src="/js/sketch_about.js"></script>
+   <!-- Adjust the path as needed -->
 </div>
-<div class="flex-l items-start">
-  <div class="mr3-l w-100-l tc">
-    <h6 class="f7 fw7 black-20 mt4 tracked ttu lh-title">Team LEAD</h6>
-    <h4 class="f4 mt4 lh-title">Lakhsmi N</h4>
-    <img src="assets/thumb-contact-form.png" alt="Team Lead Image">
-  </div>
+  <!-- Additional head elements... -->
+</head>
 
   <div class="tc">
-    <h6 class="f7 fw7 black-20 mt4 tracked ttu lh-title">MEDIA LEAD</h6>
-    <div class="flex items-center justify-center">
-      <div class="tc mr3">
-        <img src="assets/thumb-contact-form.png" class="br-100" alt="Hari">
-        <p class="mv2">Hari</p>
-      </div>
-      <div class="tc">
-        <img src="assets/thumb-contact-form.png" class="br-100" alt="Khaif">
-        <p class="mv2">Khaif</p>
-      </div>
-    </div>
+    <h1 class="f2 f1-ns">Meet The Amazing GDSC Team 🧑‍💻👩‍💻</h1>
+    <!-- <center>
+    <p class="f2 f1-ns measure lh-copy measure-narrow lh-solid">
+    These people serve as the executive committee of GDSC.
+    </p>
+  </center>
+  
+  </div> -->
+  </div>
+  <body>
 
-    <!-- SOCIAL MEDIA TEAM -->
-    <div class="flex items-center justify-center">
-      <div class="tc mr3">
-        <h6 class="f7 fw7 black-20 mt4 tracked ttu lh-title">SOCIAL MEDIA TEAM</h6>
-        <div class="flex items-center justify-center">
-          <div class="tc mr3">
-            <img src="assets/thumb-contact-form.png" class="br-100" alt="New Member">
-            <p class="mv2">asd</p>
-          </div>
-          <div class="tc">
-            <img src="assets/thumb-contact-form.png" class="br-100" alt="New Member">
-            <p class="mv2">asd</p>
-          </div>
-          <!-- Add more team members as needed -->
-        </div>
-      </div>
+  <div class="container">
+    <div class="members__wrap">
+      <div class="member">A</div>
+      <div class="member">B</div>
+    </div>
+    <div class="members__wrap">
+      <div class="member">C</div>
+      <div class="member">D</div>
+    </div>
+    <div class="members__wrap">
+      <div class="member">E</div>
+      <div class="member">F</div>
+      <div class="member">G</div>
+    </div>
+    <div class="members__wrap">
+      <div class="member">H</div>
+      <div class="member">I</div>
+    </div>
+    <div class="members__wrap">
+      <div class="member">J</div>
+      <div class="member">K</div>
     </div>
   </div>
-</div>
+  <div>
+</body>
+
+<style>
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+ 
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 3;
+  justify-items: center;
+  gap: 0 1rem;
+
+  padding: 4rem 0;
+  margin: 0 auto;
+}
+
+.members__wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0 1rem;
+
+  width: min-content;
+  padding: 0.25rem;
+  background-color: var(--wrap-color, #33c);
+  border-radius: calc(2rem + 6px);
+}
+
+.members__wrap:nth-child(2) {
+  --wrap-color: #c33;
+}
+
+.members__wrap:nth-child(3) {
+  grid-column: 1 / 5;
+  background-color: transparent;
+}
+
+.members__wrap:nth-child(4) {
+  --wrap-color: #3c3;
+}
+
+.members__wrap:nth-child(5) {
+  --wrap-color: #cc3;
+}
+
+.members__wrap:nth-child(1),
+.members__wrap:nth-child(4) {
+  grid-column: 1 / 3;
+}
+
+.members__wrap:nth-child(2),
+.members__wrap:nth-child(5) {
+  grid-column: 3 / 5;
+}
+
+.member {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 5rem;
+  height: 5rem;
+  color: #111;
+  background-color: #ccc;
+
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.members__wrap:nth-child(3) .member {
+  border: 3px solid #111;
+}
+
+.members__wrap:nth-child(3) .member:nth-child(2) {
+  width: 6rem;
+  height: 6rem;
+}</style>
